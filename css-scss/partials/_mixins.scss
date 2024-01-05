@@ -1,0 +1,25 @@
+@mixin font-heading-xl {
+  font-size: 88px;
+  font-weight: 700;
+  letter-spacing: -2.5px;
+  line-height: 88px;
+}
+
+@mixin font-heading-l {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  line-height: 56px;
+}
+
+@mixin font-heading-m {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+@mixin font-body {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}

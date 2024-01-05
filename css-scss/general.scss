@@ -1,0 +1,18 @@
+@import "./partials/mixins", "./partials/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+iframe,
+img {
+  display: block;
+}
+
+body {
+  background-color: $black;
+  color: $white;
+  font-family: "Space Grotesk", sans-serif;
+}
