@@ -1,0 +1,26 @@
+@import "./partials/mixins", "./partials/variables";
+.main__skills {
+  margin: 80px 0 80px 0;
+  display: grid;
+  justify-content: center;
+  border-top: 1px solid $grey;
+  border-bottom: 1px solid $grey;
+  padding: 40px 0 40px 0;
+  gap: 24px;
+}
+
+.main__skills__header {
+  @include font-heading-32;
+  text-align: center;
+}
+
+.main__skills__description {
+  @include font-body-16;
+  color: $grey;
+  text-align: center;
+}
+
+// PROJECTS
+.main__projects__project-box__img {
+  width: 100%;
+}

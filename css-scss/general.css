@@ -13,4 +13,17 @@ body {
   background-color: #151515;
   color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
+  margin: 20px 16px 60px 16px;
+}
+
+a:hover .social-icon-hover {
+  fill: #4ee1a0;
+  transition: all ease 0.1s;
+}
+
+.underline {
+  -webkit-text-decoration: underline #4ee1a0;
+          text-decoration: underline #4ee1a0;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 8px;
 }/*# sourceMappingURL=general.css.map */

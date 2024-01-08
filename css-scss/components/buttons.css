@@ -1,0 +1,16 @@
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0px 0px 10px 0px;
+  transition: all ease 0.1s;
+  text-decoration: none;
+  border-bottom: 2px solid #4ee1a0;
+}
+
+.button:hover {
+  color: #4ee1a0;
+}/*# sourceMappingURL=buttons.css.map */

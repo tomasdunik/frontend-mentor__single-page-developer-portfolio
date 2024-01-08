@@ -1,0 +1,9 @@
+@import "../partials/mixins", "../partials/variables";
+
+.button {
+  @include font-button;
+}
+
+.button:hover {
+  color: $green;
+}

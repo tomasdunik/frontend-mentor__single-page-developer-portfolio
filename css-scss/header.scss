@@ -1,1 +1,40 @@
 @import "./partials/mixins", "./partials/variables";
+
+.header__container-logo-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__container-logo-social-media__logo {
+  @include font-logo-s;
+}
+
+.header__container-logo-social-media__social-media {
+  display: flex;
+  gap: 25.6px;
+}
+
+.header__photo {
+  margin-bottom: 40px;
+  width: 46.4vw;
+}
+
+.header__container-text-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__container-text-button__heading {
+  @include font-heading-40;
+  text-align: center;
+}
+
+.header__container-text-button__description {
+  @include font-body-16;
+  color: $grey;
+  text-align: center;
+}
