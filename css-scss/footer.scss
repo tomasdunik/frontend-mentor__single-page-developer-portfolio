@@ -1,0 +1,38 @@
+@import "./partials/mixins", "./partials/variables";
+
+.footer {
+  background-color: $grey-dark;
+}
+
+.footer__contact__text__heading {
+  @include font-heading-40;
+  text-align: center;
+}
+
+.footer__contact__text__description {
+  @include font-body-16;
+  text-align: center;
+  color: $grey;
+}
+
+.footer__contact__form__box-first-name,
+.footer__contact__form__box-email {
+  border-bottom: 2px solid #979797;
+}
+
+.footer__contact__form__box-first-name__name,
+.footer__contact__form__box-email__email {
+  @include font-body-16-22;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 16px 24px 16px 24px;
+  color: white;
+  flex-grow: 1;
+  outline: none;
+}
+
+// .footer__contact__form__box-first-name__name::placeholder {
+//     background-color: red;
+// }

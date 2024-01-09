@@ -1,0 +1,40 @@
+.footer {
+  background-color: #242424;
+}
+
+.footer__contact__text__heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.14px;
+  text-align: center;
+}
+
+.footer__contact__text__description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: #d9d9d9;
+}
+
+.footer__contact__form__box-first-name,
+.footer__contact__form__box-email {
+  border-bottom: 2px solid #979797;
+}
+
+.footer__contact__form__box-first-name__name,
+.footer__contact__form__box-email__email {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.22px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 16px 24px 16px 24px;
+  color: white;
+  flex-grow: 1;
+  outline: none;
+}/*# sourceMappingURL=footer.css.map */

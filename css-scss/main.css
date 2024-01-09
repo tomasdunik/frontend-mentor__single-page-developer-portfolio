@@ -1,5 +1,5 @@
 .main__skills {
-  margin: 80px 0 80px 0;
+  margin: 0px 0 80px 0;
   display: grid;
   justify-content: center;
   border-top: 1px solid #d9d9d9;
@@ -24,6 +24,47 @@
   text-align: center;
 }
 
+.main__projects {
+  display: grid;
+  gap: 40px;
+}
+
+.main__projects__project-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .main__projects__project-box__img {
   width: 100%;
+}
+
+.main__projects__project-box__text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.main__projects__project-box__text__heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.main__projects__project-box__text__tags-box {
+  display: flex;
+  gap: 18px;
+}
+
+.main__projects__project-box__text__tags-box__tag {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #d9d9d9;
+  text-transform: uppercase;
+}
+
+.main__projects__project-box-buttons {
+  display: flex;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */

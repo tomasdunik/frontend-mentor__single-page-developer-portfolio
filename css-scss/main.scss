@@ -1,6 +1,6 @@
 @import "./partials/mixins", "./partials/variables";
 .main__skills {
-  margin: 80px 0 80px 0;
+  margin: 0px 0 80px 0;
   display: grid;
   justify-content: center;
   border-top: 1px solid $grey;
@@ -21,6 +21,43 @@
 }
 
 // PROJECTS
+.main__projects {
+  display: grid;
+  gap: 40px;
+}
+
+.main__projects__project-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .main__projects__project-box__img {
   width: 100%;
+}
+
+.main__projects__project-box__text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.main__projects__project-box__text__heading {
+  @include font-heading-m;
+}
+
+.main__projects__project-box__text__tags-box {
+  display: flex;
+  gap: 18px;
+}
+
+.main__projects__project-box__text__tags-box__tag {
+  @include font-body;
+  color: $grey;
+  text-transform: uppercase;
+}
+
+.main__projects__project-box-buttons {
+  display: flex;
+  gap: 30px;
 }

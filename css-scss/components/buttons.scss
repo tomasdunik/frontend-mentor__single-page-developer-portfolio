@@ -7,3 +7,15 @@
 .button:hover {
   color: $green;
 }
+
+.button--send-form {
+  @include font-button;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid $green;
+  cursor: pointer;
+}
+
+.button--send-form:hover {
+  color: $green;
+}
