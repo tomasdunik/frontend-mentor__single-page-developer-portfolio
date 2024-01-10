@@ -1,5 +1,26 @@
 .footer {
   background-color: #242424;
+  padding-top: 60px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 87px;
+}
+
+.footer__contact__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .footer__contact__text__heading {
@@ -19,12 +40,14 @@
 }
 
 .footer__contact__form__box-first-name,
-.footer__contact__form__box-email {
+.footer__contact__form__box-email,
+.footer__contact__form__box-message {
   border-bottom: 2px solid #979797;
 }
 
 .footer__contact__form__box-first-name__name,
-.footer__contact__form__box-email__email {
+.footer__contact__form__box-email__email,
+.footer__contact__form__box-message__message {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -37,4 +60,24 @@
   color: white;
   flex-grow: 1;
   outline: none;
+}
+
+.footer__container-logo-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 39px;
+}
+
+.footer__container-logo-social-media__logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.33px;
+  line-height: 32px;
+}
+
+.footer__container-logo-social-media__social-media {
+  display: flex;
+  gap: 25.6px;
 }/*# sourceMappingURL=footer.css.map */

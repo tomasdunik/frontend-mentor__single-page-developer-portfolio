@@ -2,6 +2,27 @@
 
 .footer {
   background-color: $grey-dark;
+  padding-top: 60px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-bottom: 1px solid $grey;
+  padding-bottom: 87px;
+}
+
+.footer__contact__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .footer__contact__text__heading {
@@ -16,12 +37,14 @@
 }
 
 .footer__contact__form__box-first-name,
-.footer__contact__form__box-email {
+.footer__contact__form__box-email,
+.footer__contact__form__box-message {
   border-bottom: 2px solid #979797;
 }
 
 .footer__contact__form__box-first-name__name,
-.footer__contact__form__box-email__email {
+.footer__contact__form__box-email__email,
+.footer__contact__form__box-message__message {
   @include font-body-16-22;
   text-transform: uppercase;
   background-color: transparent;
@@ -36,3 +59,20 @@
 // .footer__contact__form__box-first-name__name::placeholder {
 //     background-color: red;
 // }
+
+.footer__container-logo-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 39px;
+}
+
+.footer__container-logo-social-media__logo {
+  @include font-logo-s;
+}
+
+.footer__container-logo-social-media__social-media {
+  display: flex;
+  gap: 25.6px;
+}
