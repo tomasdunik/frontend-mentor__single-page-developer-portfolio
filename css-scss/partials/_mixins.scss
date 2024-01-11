@@ -5,6 +5,13 @@
   line-height: 88px;
 }
 
+@mixin font-heading-72 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -2.05px;
+  line-height: 72px;
+}
+
 @mixin font-heading-l {
   font-size: 48px;
   font-weight: 700;
@@ -24,6 +31,13 @@
   font-weight: 700;
   line-height: 40px;
   letter-spacing: -1px;
+}
+
+@mixin font-heading-32--logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.44px;
 }
 
 @mixin font-heading-m {

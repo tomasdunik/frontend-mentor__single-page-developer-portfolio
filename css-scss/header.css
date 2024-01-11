@@ -43,4 +43,42 @@
   line-height: 26px;
   color: #d9d9d9;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header__container-logo-social-media {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .header__container-logo-social-media__logo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+  }
+  .header__container-logo-social-media__social-media {
+    gap: 32px;
+  }
+  .header__photo {
+    margin-bottom: 0;
+    width: 322px;
+  }
+  .header__container-text-button {
+    align-items: flex-start;
+    gap: 0;
+  }
+  .header__container-text-button__heading {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.05px;
+    line-height: 72px;
+    text-align: left;
+  }
+  .header__container-text-button__description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+  }
 }/*# sourceMappingURL=header.css.map */
