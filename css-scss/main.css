@@ -29,6 +29,18 @@
   gap: 40px;
 }
 
+.main__projects__heading-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__projects__heading-button__heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.14px;
+}
+
 .main__projects__project-box {
   display: flex;
   flex-direction: column;
@@ -67,4 +79,43 @@
 .main__projects__project-box-buttons {
   display: flex;
   gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__skills {
+    margin: 0px 0 100px 0;
+    border-bottom: none;
+    padding: 40px 0 0 0;
+    gap: 52px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main__skills__header {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    line-height: 56px;
+    text-align: left;
+  }
+  .main__skills__description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #d9d9d9;
+    text-align: left;
+  }
+  .main__projects {
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main__projects__heading-button__heading {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.05px;
+    line-height: 72px;
+  }
+  .main__projects__project-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

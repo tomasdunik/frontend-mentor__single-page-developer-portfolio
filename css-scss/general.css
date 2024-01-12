@@ -36,6 +36,7 @@ footer {
 @media screen and (min-width: 768px) {
   .underline {
     text-decoration-thickness: 6px;
+    text-underline-offset: 14px;
   }
   header,
   main,

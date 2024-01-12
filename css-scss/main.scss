@@ -26,6 +26,15 @@
   gap: 40px;
 }
 
+.main__projects__heading-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__projects__heading-button__heading {
+  @include font-heading-40;
+}
+
 .main__projects__project-box {
   display: flex;
   flex-direction: column;
@@ -60,4 +69,42 @@
 .main__projects__project-box-buttons {
   display: flex;
   gap: 30px;
+}
+
+// 768px
+@media screen and (min-width: 768px) {
+  .main__skills {
+    margin: 0px 0 100px 0;
+    border-bottom: none;
+    padding: 40px 0 0 0;
+    gap: 52px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main__skills__header {
+    @include font-heading-l;
+    text-align: left;
+  }
+
+  .main__skills__description {
+    @include font-body;
+    color: $grey;
+    text-align: left;
+  }
+
+  // PROJECTS
+  .main__projects {
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main__projects__heading-button__heading {
+    @include font-heading-72;
+  }
+
+  .main__projects__project-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

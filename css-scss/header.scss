@@ -39,11 +39,14 @@
   text-align: center;
 }
 
+// 768px
 @media screen and (min-width: 768px) {
   .header__container-logo-social-media {
     flex-direction: row;
     gap: 0;
     justify-content: space-between;
+    z-index: 2;
+    position: relative;
   }
 
   .header__container-logo-social-media__logo {
@@ -54,25 +57,36 @@
     gap: 32px;
   }
 
-  // edit
-
   .header__photo {
     margin-bottom: 0;
     width: 322px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
   }
 
   .header__container-text-button {
     align-items: flex-start;
     gap: 0;
+    z-index: 1;
+    position: relative;
+    width: 443px;
   }
 
   .header__container-text-button__heading {
     @include font-heading-72;
     text-align: left;
+    padding-top: 90px;
   }
 
   .header__container-text-button__description {
     @include font-body;
     text-align: left;
+    padding-top: 60px;
+  }
+
+  .header__container-text-button .button {
+    padding-top: 34px;
   }
 }
