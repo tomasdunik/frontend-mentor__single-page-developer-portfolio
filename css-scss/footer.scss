@@ -39,7 +39,7 @@
 .footer__contact__form__box-first-name,
 .footer__contact__form__box-email,
 .footer__contact__form__box-message {
-  border-bottom: 2px solid #979797;
+  border-bottom: 1px solid #979797;
 }
 
 .footer__contact__form__box-first-name__name,
@@ -87,14 +87,12 @@
     align-items: center;
   }
 
-  // tu pokracovat spodna paticka a kontkat musia bzt oddelene kvoli sirkam
-
   .footer__contact {
     // display: flex;
     // flex-direction: column;
-    gap: 48px;
-    border-bottom: 1px solid #979797;
-    padding-bottom: 92px;
+    // gap: 48px;
+    border-bottom: none;
+    // padding-bottom: 92px;
     width: 445px;
   }
 
@@ -109,43 +107,41 @@
   }
 
   .footer__contact__text__heading {
-    @include font-heading-40;
-    text-align: center;
+    @include font-heading-72;
   }
 
   .footer__contact__text__description {
-    @include font-body-16;
-    text-align: center;
-    color: $grey;
+    @include font-body;
   }
 
   .footer__contact__form__box-first-name,
   .footer__contact__form__box-email,
   .footer__contact__form__box-message {
-    border-bottom: 2px solid #979797;
+    // border-bottom: 1px solid #979797;
   }
 
   .footer__contact__form__box-first-name__name,
   .footer__contact__form__box-email__email,
   .footer__contact__form__box-message__message {
-    @include font-body-16-22;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    padding: 16px 24px 16px 24px;
-    color: white;
-    flex-grow: 1;
-    outline: none;
+    // @include font-body-16-22;
+    // text-transform: uppercase;
+    // background-color: transparent;
+    // border: none;
+    // width: 100%;
+    // padding: 16px 24px 16px 24px;
+    // color: white;
+    // flex-grow: 1;
+    // outline: none;
   }
-
-  // dole uz hotove
 
   .footer__container-logo-social-media {
     flex-direction: row;
     justify-content: space-between;
+
     gap: 0;
     padding-top: 30px;
+    border-top: 1px solid #979797;
+    width: 100%;
   }
   .footer__container-logo-social-media__logo {
     @include font-heading-32--logo;

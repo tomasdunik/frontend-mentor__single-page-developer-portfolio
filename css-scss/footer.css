@@ -42,7 +42,7 @@
 .footer__contact__form__box-first-name,
 .footer__contact__form__box-email,
 .footer__contact__form__box-message {
-  border-bottom: 2px solid #979797;
+  border-bottom: 1px solid #979797;
 }
 
 .footer__contact__form__box-first-name__name,
@@ -89,9 +89,7 @@
     align-items: center;
   }
   .footer__contact {
-    gap: 48px;
-    border-bottom: 1px solid #979797;
-    padding-bottom: 92px;
+    border-bottom: none;
     width: 445px;
   }
   .footer__contact__form {
@@ -100,45 +98,23 @@
     gap: 32px;
   }
   .footer__contact__text__heading {
-    font-size: 40px;
+    font-size: 72px;
     font-weight: 700;
-    line-height: 40px;
-    letter-spacing: -1.14px;
-    text-align: center;
+    letter-spacing: -2.05px;
+    line-height: 72px;
   }
   .footer__contact__text__description {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 26px;
-    text-align: center;
-    color: #d9d9d9;
-  }
-  .footer__contact__form__box-first-name,
-  .footer__contact__form__box-email,
-  .footer__contact__form__box-message {
-    border-bottom: 2px solid #979797;
-  }
-  .footer__contact__form__box-first-name__name,
-  .footer__contact__form__box-email__email,
-  .footer__contact__form__box-message__message {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: -0.22px;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    padding: 16px 24px 16px 24px;
-    color: white;
-    flex-grow: 1;
-    outline: none;
+    line-height: 28px;
   }
   .footer__container-logo-social-media {
     flex-direction: row;
     justify-content: space-between;
     gap: 0;
     padding-top: 30px;
+    border-top: 1px solid #979797;
+    width: 100%;
   }
   .footer__container-logo-social-media__logo {
     font-size: 32px;
