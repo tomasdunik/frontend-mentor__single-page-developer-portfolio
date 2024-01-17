@@ -120,4 +120,32 @@
     flex-direction: column;
     gap: 20px;
   }
+}
+@media screen and (min-width: 1440px) {
+  .main__skills {
+    padding: 72px 0 0 0;
+    gap: 58px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 104px;
+  }
+  .main__skills__skill--box {
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__projects {
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main__projects__heading-button__heading {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.05px;
+    line-height: 72px;
+  }
+  .main__projects__project-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

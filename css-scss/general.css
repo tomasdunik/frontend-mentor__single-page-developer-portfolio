@@ -43,4 +43,14 @@ footer {
   footer {
     padding: 29px 30px 40px 30px;
   }
+}
+@media screen and (min-width: 1440px) {
+  .underline {
+    text-underline-offset: 18px;
+  }
+  header,
+  main,
+  footer {
+    padding: 39px 165px 92px 165px;
+  }
 }/*# sourceMappingURL=general.css.map */

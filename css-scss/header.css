@@ -95,4 +95,32 @@
   .header__container-text-button .button {
     padding-top: 34px;
   }
+}
+@media screen and (min-width: 1440px) {
+  .header__photo {
+    width: 445px;
+    right: 165px;
+  }
+  .header__container-text-button {
+    width: 706px;
+  }
+  .header__container-text-button__heading {
+    font-size: 88px;
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    line-height: 88px;
+    text-align: left;
+    padding-top: 127px;
+  }
+  .header__container-text-button__description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    padding-top: 43px;
+    width: 445px;
+  }
+  .header__container-text-button .button {
+    padding-top: 66px;
+  }
 }/*# sourceMappingURL=header.css.map */
