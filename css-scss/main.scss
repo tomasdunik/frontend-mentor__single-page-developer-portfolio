@@ -121,6 +121,7 @@
     gap: 58px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 104px;
+    margin: 0 0 140px 0;
   }
 
   .main__skills__header {
@@ -133,21 +134,30 @@
     // color: $grey;
     // text-align: left;
   }
-  // tu pokracovat
+
   .main__skills__skill--box {
     gap: 14px;
     display: flex;
     flex-direction: column;
   }
-
+  // tu porkacuj
   // PROJECTS
+  .main__projects__heading-button {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding-bottom: 80px;
+  }
+
   .main__projects {
     gap: 24px;
+
     grid-template-columns: 1fr 1fr;
   }
 
   .main__projects__heading-button__heading {
-    @include font-heading-72;
+    @include font-heading-xl;
   }
 
   .main__projects__project-box {

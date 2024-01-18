@@ -127,21 +127,28 @@
     gap: 58px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 104px;
+    margin: 0 0 140px 0;
   }
   .main__skills__skill--box {
     gap: 14px;
     display: flex;
     flex-direction: column;
   }
+  .main__projects__heading-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+  }
   .main__projects {
     gap: 24px;
     grid-template-columns: 1fr 1fr;
   }
   .main__projects__heading-button__heading {
-    font-size: 72px;
+    font-size: 88px;
     font-weight: 700;
-    letter-spacing: -2.05px;
-    line-height: 72px;
+    letter-spacing: -2.5px;
+    line-height: 88px;
   }
   .main__projects__project-box {
     display: flex;
